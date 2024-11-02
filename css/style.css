@@ -1,0 +1,141 @@
+@font-face {
+    font-family: robot;
+    src: url(../font/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: raleway;
+    src: url(../font/Raleway.ttf);
+}
+.menu-h{
+    display: none;
+}
+.title{
+    display: flex;
+    flex-direction:column;
+    background: url(../img/title.png);
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1.778/1;
+    background-size: contain;
+}
+body{
+    margin: 0;
+}
+.menu>ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    width: 60%;
+    margin: 30px auto;
+    justify-content: space-between;
+    font-family: robot;
+    font-size: 20px;
+}
+.header{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 200px;
+    font-family: raleway;
+    margin-top: -50px;
+    color: #0D302C;
+}
+.subheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: robot;
+    font-size: 24px;
+    margin-top: -20px;
+}
+.second-title{
+    font-size: 48px;
+    font-family: raleway;
+    text-align: center;
+    margin: 100px 0 0 0;
+    color: #01353E;
+    font-weight: bold;
+}
+.columns{
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+}
+.col1{
+flex-basis: 50%;
+margin-right: 50px;
+font-family: robot;
+font-size: 14px;
+}
+.col2{
+flex-basis: 50%;
+margin-left: 50px;
+font-family: robot;
+font-size: 14px;
+}
+/*Блок Покоряй вершины*/
+.apex{
+display: flex;
+margin: 100px 0 0 15%;
+}
+.left-text{
+    flex: 1 1 45%;
+    font-family: robot;
+    font-size: 14px;
+}
+.right-img{
+    object-fit: contain;
+    flex: 1 1 55%;
+}
+.right-img img{
+    width: 100%;
+    height: auto;
+}
+.third-title{
+    font-family: raleway;
+    font-size: 48px;
+    font-weight: 600;
+    color: #01353E;
+    margin: 50px 0;
+    text-align: center;
+}
+.text-content p{
+    margin: 20px 0;
+}
+.text-content{
+    margin: 50px 50px 50px 0;
+}
+/*Блок Наша команда*/
+.command{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: auto;
+}
+.serfer div{
+    object-fit: contain;
+}
+.serfer div img{
+    width: 80%;
+    height: auto;
+}
+.serfer-text div:first-child{
+    font-size: 18px;
+    font-family: robot;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 50px;
+}
+.serfer-text div:last-child{
+    font-family: robot;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 50px;
+}
+.footer{
+    width: 100%;
+    background: #00b2a0;
+    margin-top: 100px;
+}
